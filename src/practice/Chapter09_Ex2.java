@@ -1,3 +1,4 @@
+package practice;
 
 public class Chapter09_Ex2 {
 	public static void main(String[] args) {
@@ -5,7 +6,7 @@ public class Chapter09_Ex2 {
 		int b = 427;
 		System.out.println(a + "と" + b + "の最大公約数は、" + gcd(a, b) + "です");
 	}
-	
+
 //	ユーグリッドの互除法で最大公約数を計算するメゾッド
 	static int gcd(int a, int b) {
 //		b(余りが)0になった時のaが最大公約数
